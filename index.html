@@ -3,32 +3,39 @@
 
     <head>
         <meta charset="UTF-8">
-        <link> <!--Link to stylesheet-->
+        <link rel="stylesheet" href="./style.css">
         <link> <!--Link to Google fonts-->
         <meta> <!--Link to media queries-->
         <title>Silly Sentences</title>
     </head>
 
     <body>
-        <h1>Silly Sentence</h1><br>
-        <h2>Click the button below to generate a silly sentence!</h2><br>
-        <button>Click Here!</button><br>
-        <h2>Why not create your own? Fill in the form below.</h2><br>
+        <header>
+            <h1>Silly Sentence</h1><br>
+        </header>
 
-        <form action="index.html" method="GET">
-            <label>Noun:</label>
-            <input>
-            <br>
-            <label>Adjective:</label>
-            <input>
-            <br>
-            <label>Verb:</label>
-            <input>
-            <br>
-        </form>
-        <button></button>
+        <div class="generate-sentence">
+            <h2>Click the button below to generate a silly sentence!</h2><br>
+            <button>Click Here!</button><br>
+            <!--Generated sentence appears when button clicked.-->
+        </div>
+        <div class="create-your-own">
+            <h2>Why not create your own? Fill in the form below.</h2><br>
 
-        
+            <form action="index.html" method="GET">
+                <label>Noun:</label>
+                <input>
+                <br>
+                <label>Adjective:</label>
+                <input>
+                <br>
+                <label>Verb:</label>
+                <input>
+                <br>
+            </form>
+            <button></button>
+        </div>
+
     </body>
 
 </html>
