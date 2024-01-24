@@ -1,0 +1,84 @@
+/* Universal Styles */
+
+@font-face {
+    font-family: 'WebPageFont';
+    src: url('fonts/ABeeZee-Regular.ttf') format('truetype'),
+        url('fonts/ABeeZee-Italic.ttf') format('truetype');
+}
+
+* {
+    font-family: 'WebPageFont';
+}
+
+html {
+    background-color: #FDFFAB;
+    text-align: center;
+    font-family: 'WebPageFont';
+    font-size: 16px;
+}
+
+/* Body */
+
+body {
+    margin: 30px;
+}
+
+header {
+    font-size: 2rem;
+    background-color: #D9EDBF;
+    display: flex;
+    max-width: 700px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 90px;
+}
+
+h1 {
+    flex: 2 2 100px;
+}
+
+div {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    max-width: 800px;
+}
+
+div > :not(div) :not(button) {
+    flex: 1 1 800px;
+}
+
+.generate-sentence {
+    background-color: #FFB996;
+    height: 200px;
+}
+
+.create-your-own {
+    background-color: #FFCF81;
+    height: 350px;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+form {
+    line-height: 35px;
+}
+
+form > label {
+    font-size: 1.4rem;
+}
+
+form > input {
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1.2rem;
+}

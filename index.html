@@ -4,36 +4,36 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css">
-        <link> <!--Link to Google fonts-->
-        <meta> <!--Link to media queries-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Silly Sentences</title>
     </head>
 
     <body>
         <header>
-            <h1>Silly Sentence</h1><br>
+            <h1>Silly Sentences</h1><br>
         </header>
 
         <div class="generate-sentence">
             <h2>Click the button below to generate a silly sentence!</h2><br>
-            <button>Click Here!</button><br>
+            <button>Let's Get Silly!</button><br>
             <!--Generated sentence appears when button clicked.-->
         </div>
         <div class="create-your-own">
             <h2>Why not create your own? Fill in the form below.</h2><br>
 
             <form action="index.html" method="GET">
-                <label>Noun:</label>
-                <input>
+                <label for="noun">Noun:</label>
+                <input id="noun" name="noun" type="text" required pattern="[a-zA-Z]+">
                 <br>
-                <label>Adjective:</label>
-                <input>
+                <label for="adjective">Adjective:</label>
+                <input id="adjective" name="adjective" type="text" required pattern="[a-zA-Z]+">
                 <br>
-                <label>Verb:</label>
-                <input>
+                <label for="verb">Verb:</label>
+                <input id="verb" name="verb" type="text" required pattern="[a-zA-Z]+">
                 <br>
             </form>
-            <button></button>
+            <br>
+            <button type="submit">Generate Silliness!</button>
         </div>
 
     </body>
