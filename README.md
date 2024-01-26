@@ -15,11 +15,11 @@ Created in early 2024, this repository is a collaboratative production by interm
 * Hard coded arrays containing the nouns, verbs, adjectives
 * Math.random to select from each array per sentence
 * Sentence skeletons to build the nonsensical sentences
-* HTML button to fire the randomise option
+* HTML button to fire the randomize option
 
 ### Customize and Enhance
 * Add HTML input forms for at least one noun, verb, adjective
-* Code for bypassing the randomiser and hard coded arrays
+* Code for bypassing the randomizer and hard coded arrays
 * Frontend formatting, code sanitization and type checking, 
 * Accessibility enhancements
 * Alternative sources of random words?

@@ -6,7 +6,8 @@
 <meta charset="utf-8"/>
 <title>Mixed Messages</title>
 
-<link href='main.css' type="text/css" rel="stylesheet">
+<link href="main.css" type="text/css" rel="stylesheet">
+<script src="messages.js"></script>
 </head>
 
 <!----BODY---->
@@ -14,28 +15,32 @@
 
 <header>
 <h1>Mixed Messages Collaboration Project</h1>
-
 </header>
 
 <main>
 <section>
-<p>Insert your three words to customize your sentence!</p>
-<form action="index.html" method="GET">
-        <label for="noun-1">Noun:</label>
-        <input type="text" id="noun-1" name="noun-1" required>
-        <label for="verb-1">Verb (ends in -ing):</label>
-        <input type="text" id="verb-1" name="verb-1" required>
-        <label for="adj-1">Adjective (ends in -ed):</label>
-        <input type="text" id="adj-1" name="adj-1" required>
+<h2>Click the button to unleash nonsense!</h2>
+<button class="button1 button-1" onclick="generate()">Generate</button>
 </section>
-<section>
-<p>Today the NOUN was VERB and then ADJECTIVE!</p>
-</section>
-<section>
-<p>Click the button below to create a nonsensical sentence</p>
-<button class="button1 button-1">Generate nonsense</button>
 
+<section>
+        <h2>Look what you wrote!</h2>
+        <p id="nonsense"></p>
 </section>
+
+<section>
+<form name="form" action="index.html" method="">
+<p>Optionally, insert three words to customize your sentence!</p>
+        <label for="noun">Noun:</label>
+        <input type="text" id="noun" name="noun">
+        <label for="verb">Verb:</label>
+        <input type="text" id="verb" name="verb">
+        <label for="adj">Adjective:</label>
+        <input type="text" id="adj" name="adj">
+</section>
+</form>
+
+
 </main>
 
 </body>
