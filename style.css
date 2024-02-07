@@ -27,7 +27,7 @@ header {
     font-size: 2rem;
     background-color: #D9EDBF;
     display: flex;
-    max-width: 700px;
+    width: 700px;
     height: 200px;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ div {
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-    max-width: 800px;
+    width: 800px;
 }
 
 div > :not(div) :not(button) {
@@ -81,4 +81,68 @@ form > input {
 
 button {
     font-size: 1.2rem;
+}
+
+img {
+   height: 280px;
+}
+
+/* Media Queries */
+
+/* Mobile Phone - Portrait and Landscape */
+@media only screen and (max-width: 767px) {
+    header {
+        font-size: 1rem;
+        width: 380px;
+        height: 100px;
+    }
+    div {
+        width: 500px;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    form > label {
+        font-size: 0.9rem;
+    }
+    
+    form > input {
+        font-size: 0.6rem;
+    }
+    
+    button {
+        font-size: 0.7rem;
+    }
+    img {
+        height: 200px;
+    }
+}
+
+/* iPads or Tablets - Portrait and Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    header {
+        font-size: 1.5rem;
+        width: 500px;
+        height: 150px;
+    }
+    div {
+        width: 650px;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    form > label {
+        font-size: 1.1rem;
+    }
+    
+    form > input {
+        font-size: 0.8rem;
+    }
+    
+    button {
+        font-size: 0.9rem;
+    }
+    img {
+        height: 230px;
+    }
 }
