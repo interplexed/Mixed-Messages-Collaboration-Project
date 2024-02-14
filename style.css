@@ -21,22 +21,28 @@ html {
 
 body {
     margin: 30px;
+    /*display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;*/
 }
 
 header {
     font-size: 2rem;
     background-color: #D9EDBF;
     display: flex;
-    width: 700px;
+    width: 550px;
     height: 200px;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
+    margin: auto;
     border-radius: 90px;
+    flex-shrink: 1;
 }
 
 h1 {
-    flex: 2 2 100px;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 div {
@@ -46,11 +52,8 @@ div {
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-    width: 800px;
-}
-
-div > :not(div) :not(button) {
-    flex: 1 1 800px;
+    width: 700px;
+    flex-shrink: 1;
 }
 
 .generate-sentence {
@@ -84,7 +87,8 @@ button {
 }
 
 img {
-   height: 280px;
+   height: auto;
+   max-width: 90%;
 }
 
 /* Media Queries */
@@ -93,28 +97,24 @@ img {
 @media only screen and (max-width: 767px) {
     header {
         font-size: 1rem;
-        width: 380px;
-        height: 100px;
+        width: 90%;
     }
     div {
-        width: 500px;
+        width: 90%;
     }
     h2 {
         font-size: 1rem;
     }
     form > label {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     form > input {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     
     button {
-        font-size: 0.7rem;
-    }
-    img {
-        height: 200px;
+        font-size: 0.8rem;
     }
 }
 
@@ -122,11 +122,10 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
     header {
         font-size: 1.5rem;
-        width: 500px;
-        height: 150px;
+        width: 90%;
     }
     div {
-        width: 650px;
+        width: 90%;
     }
     h2 {
         font-size: 1.3rem;
@@ -141,8 +140,5 @@ img {
     
     button {
         font-size: 0.9rem;
-    }
-    img {
-        height: 230px;
     }
 }
