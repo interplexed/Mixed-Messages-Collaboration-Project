@@ -1,13 +1,16 @@
 
 # Codecademy - Mixed Messages Collaboration Project
 
+
 ## Description
-Created in early 2024, this repository is a collaboratative production by intermediate-level skilled programmers in JavaScript, HTML and CSS languages, prompted by the Codecademy Full-Stack learning path's Mixed Messages group project.
+Created in early 2024, this repository is a collaboratative production by intermediate-level skilled programmers, prompted by the Codecademy Full-Stack learning path's Mixed Messages group project.
+
 
 ## Project Objectives
 ### GitHub / Command Line
 * Create local development repos and push commits to the remote
 * Use branches and code reviews
+
 
 ### Build A Message Generator
 * Use JavaScript arrays and Math.random() to create non-sensical sentences
@@ -16,6 +19,7 @@ Created in early 2024, this repository is a collaboratative production by interm
 * Math.random to select from each array per sentence
 * Sentence skeletons to build the nonsensical sentences
 * HTML button to fire the randomize option
+
 
 ### Customize and Enhance
 * Add HTML input forms for at least one noun, verb, adjective
@@ -26,22 +30,21 @@ Created in early 2024, this repository is a collaboratative production by interm
 
 
 ## Features
-<to be completed>
 
 
 ## How To Use
-<to be completed>
+For example, download the ZIP or in a terminal use `git clone https://github.com/interplexed/Mixed-Messages-Collaboration-Project.git`, then open the index.html file in your web browser.
 
 
 ## Technologies
-<to be completed>
+The project uses HTML, CSS and EC6 JavaScript.  This README is in Markdown format.
 
 
 ## Collaborators
-<to be completed>
+So far, contributions have been made by interplexed and SJGilchrist.
 
 
 ## License
-<to be completed>
+
 
 
