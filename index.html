@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Silly Sentences</title>
     </head>
@@ -15,13 +16,12 @@
 
         <div class="generate-sentence">
             <h2>Click the button below to generate a silly sentence!</h2><br>
-            <button>Let's Get Silly!</button><br>
-            <!--Generated sentence appears when button clicked.-->
+            <button id="button-1" type="button">Let's Get Silly!</button><br>
         </div>
         <div class="create-your-own">
             <h2>Why not create your own? Fill in the form below.</h2><br>
 
-            <form action="index.html" method="GET">
+            <form action="#" method="GET">
                 <label for="noun">Noun:</label>
                 <input id="noun" name="noun" type="text" required pattern="[a-zA-Z]+">
                 <br>
@@ -33,9 +33,14 @@
                 <br>
             </form>
             <br>
-            <button type="submit">Generate Silliness!</button>
+            <button id="button-2">Generate Silliness!</button>
         </div>
-
+        <div>
+            <img src="./resources/shirleytemple-lol.gif">
+            <br>
+            <button id="start-over" type="submit">Start Again</button>
+        </div>
+        
     </body>
 
 </html>
