@@ -3,7 +3,7 @@
 
 
 ## Description
-Created in early 2024, this repository is a collaboratative production by intermediate-level skilled programmers, prompted by the Codecademy Full-Stack learning path's Mixed Messages group project.
+Created in early 2024, this repository is a collaborative production by intermediate-level skilled programmers, prompted by the Codecademy Full-Stack learning path's Mixed Messages group project.
 
 
 ## Project Objectives
@@ -37,7 +37,7 @@ For example, download the ZIP or in a terminal use `git clone https://github.com
 
 
 ## Technologies
-The project uses HTML, CSS and EC6 JavaScript.  This README is in Markdown format.
+The project uses HTML, CSS and ES6 JavaScript.  This README is in Markdown format.
 
 
 ## Collaborators
